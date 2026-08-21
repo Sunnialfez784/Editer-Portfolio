@@ -2,7 +2,7 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const legacyConfig = require("./config.json");
+const legacyConfig = require("./database-config.json");
 
 const devLegacy = legacyConfig.development || {};
 const testLegacy = legacyConfig.test || {};
