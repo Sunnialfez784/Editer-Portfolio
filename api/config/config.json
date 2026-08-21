@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Appsile@099",
+    "database": "video_manager",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "DB_URL",
+    "dialect": "mysql"
+  }
+}
+
