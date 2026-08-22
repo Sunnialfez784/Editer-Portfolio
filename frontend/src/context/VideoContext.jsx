@@ -8,7 +8,7 @@ function normalize(v) {
     id: v.id,
     title: v.title || "",
     description: v.description || "",
-    src: v.videoUrl || v.src || "",
+    src: v.video_url || v.src || "",
     fileName: v.fileName || v.originalName || "",
     date: (v.createdAt || "").slice(0, 10),
   };

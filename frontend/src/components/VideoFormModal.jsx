@@ -20,7 +20,7 @@ export default function VideoFormModal({open, onClose, onSubmit, initial}) {
             file: null,
             poster: "",
             fileName: initial.fileName || initial.name || "",
-            existingVideo: initial.src || initial.videoUrl || "",
+            existingVideo: initial.src || initial.video_url || "",
           }
         : {...EMPTY, existingVideo: ""},
     );
